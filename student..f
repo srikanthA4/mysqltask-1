@@ -82,11 +82,11 @@ CREATE TABLE courses(
 
 -- 2. insert at least 5 rows of values in each table
 INSERT INTO users (User_ID, FirstName, LastName, Email, PhoneNumber) 
-            values(1,'Tony', 'stank', 'Tony@gmail.com', 222444),
- INSERT INTO  values(2,'Steve', ' roggers', 'steve@gmail.com' , 333444),
- INSERT INTO  values(3,'Chirs', 'evans' ,  'chris@gmail.com ', 555444)
- INSERT INTO  values(4,'Bruce', 'banner',  'banner@gmail.com',999888  ),
- INSERT INTO  values(5,'peter', 'parker',  'peter@gmail.com',777888);
+            values(1,'srikanth', 'karnati', 'srikanth@gmail.com', 998877),
+ INSERT INTO  values(2,'Shiva', ' pamidiberry', 'shiva@gmail.com' , 998866),
+ INSERT INTO  values(3,'naveen', 'chilaka' ,  'chilaka@gmail.com ', 998855)
+ INSERT INTO  values(4,'nithesh', 'lakkireddy',  'laki@gmail.com',998844  ),
+ INSERT INTO  values(5,'masthan', 'shaik',  'basha@gmail.com',998833);
 
 INSERT INTO codekata (User_ID, Problems, No_problems_solved, Levels, Geek_coins) 
             values(1, 'Basics', 30,'Easy' , 100),
@@ -103,11 +103,11 @@ INSERT INTO attendance (User_ID ,No_of_sessions ,Attendance_percentage)
   INSERT INTO  values(5,50,40%);  
  
  INSERT INTO task (Task_ID, Name_of_tasks, task_Levels, Date_of_task_completion)
-        values(1,'todo-list', 'Easy' ,'22/01/5'  ),
-        values(2,'tic-tac-toe', 'Easy' ,'22/01/15'  ),
-        values(3,'landing-page', 'medium' ,'22/01/30'  ),
-        values(4,'backend-api', 'Hard' ,'22/02/05'  ),
-        values(5,'netflix-clone', 'Hard' ,'22/02/27'  );
+        values(1,'todo-list', 'Easy' ,'22/02/23'  ),
+        values(2,'crud', 'Easy' ,'22/02/28'  ),
+        values(3,'mysqltask', 'medium' ,'22/03/11'  ),
+        values(4,'react', 'Hard' ,'22/02/17'  ),
+        values(5,'functions', 'Hard' ,'22/11/27'  );
 
  INSERT INTO company_drives(Company_ID, Name_of_the_company, Job_Roles, Company_Website, CTC_Offere,   No_of_drives_student_attended)
       values(1,'Guvi', 'ui/ux-desginer' ,'www.guvi.in', '5-lakh ctc',3),
@@ -119,9 +119,9 @@ INSERT INTO attendance (User_ID ,No_of_sessions ,Attendance_percentage)
  INSERT INTO  mentors (Mentor_Id, Name_of_the_mentor, No_students_assigned, No_of_sessions_assigned)
     values(1, 'Arun', 50, 25),
     values(2, 'Arjun', 30, 15),
-    values(3, 'Kumar', 25, 10),
-    values(4, 'arvind', 60, 30),
-    values(5, 'Raghav', 40, 40),
+    values(3, 'lavish Kumar', 25, 10),
+    values(4, 'gangupadhya', 60, 30),
+    values(5, 'maheshwari', 40, 40),
            
 INSERT INTO  students_activated_courses (Student_activation_Id, No_of_student_activation , Activated_course_name , Expire_of_course)
    values(1, 80, 'Python', '22/10/25'),
